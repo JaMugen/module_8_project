@@ -242,6 +242,7 @@ Then submit the GitHub repository link as instructed.
 | Install Python Packages        | `pip install -r requirements.txt`               |
 | Build Docker Image              | `docker build -t <image-name> .`                |
 | Run Docker Container            | `docker run -it --rm <image-name>`               |
+| Run Docker in background        | `docker compose up -d`                          |
 | Push Code to GitHub             | `git add . && git commit -m "message" && git push` |
 
 ---
